@@ -25,7 +25,7 @@ public class FunctionMinMax : MonoBehaviour
         Debug.Log($"큰 값은 {maxValue}");
 
         int AbsResult = Abs(z);
-        //int absValue = Mathf.~~(못들음)
+        //int absValue = Mathf.Max( AbsResult, z)
         Debug.Log($"{z}의 절대값은 {AbsResult}");
 
     }
@@ -59,5 +59,5 @@ public class FunctionMinMax : MonoBehaviour
         return (num < 0) ? -num : num;
     }
 
-
+    
 }

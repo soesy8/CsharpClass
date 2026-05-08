@@ -15,75 +15,97 @@ public class FunctionPractice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (usePlus)
+        ExecuteCalculation($"{a} + {b}", usePlus, Plus(a, b));
+        ExecuteCalculation($"{a} - {b}", useMinus, Minus(a, b));
+        ExecuteCalculation($"{a} * {b}", useTimes, Times(a, b));
+        ExecuteCalculation($"{a} / {b}", usePer, Per(a, b));
+        ExecuteCalculation($"{a} % {b}", usePercent, Percent(a, b));
+
+        /*if (usePlus)
         {
             int plusValue = Plus(a, b);
-            Debug.Log($"더하기 연산 결과 : {plusValue}");
+            Debug.Log($"{a} + {b} = {plusValue}");
         }
 
         if (useMinus)
         {
             int minusValue = Minus(a, b);
-            Debug.Log($"빼기 연산 결과 : {minusValue}");
+            Debug.Log($"{a} - {b} = {minusValue}");
         }
 
         if (useTimes)
         {
             int timesValue = Times(a, b);
-            Debug.Log($"곱하기 연산 결과 : {timesValue}");
+            Debug.Log($"{a} * {b} = {timesValue}");
         }
 
         if (usePer)
         {
             float perValue = Per(a, b);
-            Debug.Log($"나누기 연산 결과 : {perValue}");
+            Debug.Log($"{a} / {b} = {perValue}");
         }
 
         if (usePercent)
         {
             int percentValue = Percent(a, b);
-            Debug.Log($"나머지 연산 결과 : {percentValue}");
-        }
+            Debug.Log($"{a} % {b} = {percentValue}");
+        }*/
     }
 
+    void ExecuteCalculation(string label, bool useExecute, float result)
+    {
+        if (useExecute)
+        {
+            Debug.Log($"{label} = {result}");
+        }
+    }
+    
     //+
     int Plus(int a, int b)
     {
-        int plusResult;
-        return plusResult = a + b;
+        /*int plusResult;
+        return plusResult = a + b;*/
+        return (a + b);
     }
+
+    //+ 심화
+    //int morePlus(int a, int b) => a + b;
 
     //-
     int Minus(int a, int b)
     {
-        int minusResult;
-        return minusResult = a - b;
+        /*int minusResult;
+        return minusResult = a - b;*/
+        return (a - b);
     }
 
     //*
     int Times(int a, int b)
     {
-        int timesResult;
-        return timesResult = a * b;
+        /*int timesResult;
+        return timesResult = a * b;*/
+        return (a * b);
     }
 
     //나누기
-    float Per(int a, int b)
+    float Per(float a, float b)
     {
-        float perResult;
+        //float perResult;
         if( b == 0)
         {
             Debug.Log("0으로는 나눌 수 없습니다.");
             return 0;
         }
-        return perResult = a / b;
+        //return perResult = a / b;
+        return (a / b);
     }
 
     //%
     int Percent(int a, int b)
     {
-        int percentResult;
-        return percentResult = a % b;
+        //*int percentResult;
+        //return percentResult = a % b;*
+        return (a % b);
     }
 
 }
