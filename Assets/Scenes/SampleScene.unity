@@ -446,6 +446,10 @@ GameObject:
   - component: {fileID: 2082776245}
   - component: {fileID: 2082776249}
   - component: {fileID: 2082776250}
+  - component: {fileID: 2082776251}
+  - component: {fileID: 2082776252}
+  - component: {fileID: 2082776253}
+  - component: {fileID: 2082776255}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -565,11 +569,59 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082776244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0f3122856401da4e9a2c934e56697c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnumDemo
+--- !u!114 &2082776251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082776244}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afcbc9cb4e2d3874ca02b1439fe39de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClassDemo
+--- !u!114 &2082776252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082776244}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8280c03cce15f9d4bae5843b820b7f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomDemo
+--- !u!114 &2082776253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082776244}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847ebc1fc7ade1e47a5e3bb5bff4a2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomPractice
+--- !u!114 &2082776255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082776244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b3fc1d0dcc45d419b436a6c94a3113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IsDemo
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
