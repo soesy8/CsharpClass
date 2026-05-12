@@ -50,8 +50,4 @@ public class 클래스이름
 }
 
 //클래스 안에 있는 함수(Function, method) 사용
-
-
-
-
 */

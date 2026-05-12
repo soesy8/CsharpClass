@@ -84,9 +84,13 @@ public class RandomPractice : MonoBehaviour
         }
 
         //[3] 임의의 숫자 6개 번호 출력
-        for (int i = 0; i < arr.Length; i++)
+        /*for (int i = 0; i < arr.Length; i++)
         {
             Debug.Log($"{arr[i]}");
+        }*/
+        foreach (int a in arr)
+        {
+            Debug.Log(a);
         }
             
     }
