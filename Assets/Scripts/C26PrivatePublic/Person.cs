@@ -1,0 +1,28 @@
+using UnityEngine;
+
+
+namespace PrivatePublic
+{
+    //유저를 (속성, 상태, 기능) 관리하는 클래스
+    public class Person
+    {
+        //필드 선언부 - 필드의 종류
+        // [1] 변수 형식의 필드
+        string name = "홍길동";
+        // [2] 상수 형식의 필드
+        const int AGE = 20;     //const 상수 /상수라 변수 이름을 대문자로 함
+        // [3] 읽기 전용 형식의 필드
+        readonly string NICKNAME = "도깨비";       //reaonly 읽기 전용
+        // [4] 배열 형식의 필드
+        string[] address = { "서울", "부산", "인천" };
+        // [5] object 형식의 필드
+        object all = System.DateTime.Now.ToShortTimeString();
+
+        // [6] 유저 정보를 출력하는 함수
+        public void ShowProfile()
+        {
+            Debug.Log($"이름 : {name}, 나이 : {AGE}, 별명 : {NICKNAME}");
+        }
+
+    }
+}
