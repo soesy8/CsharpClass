@@ -134,6 +134,10 @@ GameObject:
   - component: {fileID: 1137829802}
   - component: {fileID: 1137829807}
   - component: {fileID: 1137829808}
+  - component: {fileID: 1137829809}
+  - component: {fileID: 1137829810}
+  - component: {fileID: 1137829811}
+  - component: {fileID: 1137829812}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -265,11 +269,59 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137829801}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a029a7aeeacd9b54596c9f772bef5b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PrivatePublic.FieldStatic
+--- !u!114 &1137829809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137829801}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ed0e9c3385d2b45b201f495eb7c72c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ConstructorDemo
+--- !u!114 &1137829810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137829801}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b43a96a6f5d4d448f6f73d6dc069a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.DestructorDemo
+--- !u!114 &1137829811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137829801}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3483fd53e82624442809423c0e6191fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Method.MethodDemo
+--- !u!114 &1137829812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137829801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b207487f4fb111042a35d3ba77b38deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Method.ParameterIn
 --- !u!1 &1497029422
 GameObject:
   m_ObjectHideFlags: 0
